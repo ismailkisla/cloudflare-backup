@@ -1,5 +1,6 @@
 # cloudflare-backup
-Cloudflare API kullanarak Cloudflare hesabınızdaki domainleri ve DNS kayıtlarını text dosyalarına export eden bir bash script yazdım.   
+Cloudflare hesabınızda yüzlerce domain olabilir ve bu domainlerin bir listesi gerekebilir.  
+Bunun için Cloudflare API kullanarak Cloudflare hesabınızdaki domainlerin listesini ve DNS kayıtlarını text dosyalarına export eden bir bash script yazdım.   
 Ubuntu 20.04 altında sorunsuz çalışmaktadır.   
 Scriptin çalışabilmesi için  
 1- Dosyaya çalıştırma izni vermeniz gerekli. # chmod +x cloudflare_yedek.sh  
